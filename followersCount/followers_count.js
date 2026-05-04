@@ -18,3 +18,12 @@ function checkCountValue() {
   }
 }
 
+function resetCount() {
+    let reset = document.getElementById('reset');
+    if (reset) {
+      count = 0;
+      displayCount();
+      alert("Follower count has been reset.")
+    }
+}
+
