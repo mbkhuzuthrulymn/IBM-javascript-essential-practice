@@ -20,7 +20,7 @@ function checkCountValue() {
 
 function resetCount() {
     let reset = document.getElementById('reset');
-    if (reset) {
+    if (reset.onclick) {
       count = 0;
       displayCount();
       alert("Follower count has been reset.")
